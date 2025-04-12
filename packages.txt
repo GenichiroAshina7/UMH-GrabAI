@@ -1,13 +1,10 @@
+You need to install these packages in the terminal and create a virtual environment for python.   
 pip3 install
-
-
 livekit-agents[openai]
 livekit-agents[silero]
 livekit-agents[turn-detector]
 livekit-plugins-noise-cancellation
 python dotenv
-
-
 
 Create a new .env file. Fill it with your api keys. The format will be as follows
 LIVEKIT_URL=
