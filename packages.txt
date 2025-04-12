@@ -1,0 +1,16 @@
+pip3 install
+
+
+livekit-agents[openai]
+livekit-agents[silero]
+livekit-agents[turn-detector]
+livekit-plugins-noise-cancellation
+python dotenv
+
+
+
+Create a new .env file. Fill it with your api keys. The format will be as follows
+LIVEKIT_URL=
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+OPENAI_API_KEY=

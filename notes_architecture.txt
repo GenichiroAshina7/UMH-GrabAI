@@ -1,0 +1,13 @@
+this ai voice assistant will be using a livekit server that will utilise "agents".
+
+there are two ways to complete this project, using a stt-llm-tts pipeline or realtime model. in order to save costs we will NOT be using the realtime model.
+the slt pipeline is cheaper and not that hard to implement
+
+will be fully using openai models.
+
+stt = whisper (whisper-1)
+llm = gpt (model will be determined later, probably a cheaper one)
+tts = whisper
+
+
+actually we're using the realtime api model by openai
