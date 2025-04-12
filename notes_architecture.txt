@@ -1,13 +1,7 @@
-this ai voice assistant will be using a livekit server that will utilise "agents".
+This ai voice assistant will be using a livekit server that will utilise "agents". 
 
-there are two ways to complete this project, using a stt-llm-tts pipeline or realtime model. in order to save costs we will NOT be using the realtime model.
-the slt pipeline is cheaper and not that hard to implement
+There are two ways to complete this project, using a stt-llm-tts pipeline or realtime model. We will be using the realtime model, particularly GPT-4o Mini Realtime which is designed to handle both audio and text.
+This is much easier compared to building the pipeline by yourself.
+We will also utilise APIs such as Mapbox and MetMalaysia to gain access to maps, routing and weather. These APIs will communicate with the realtime model and provide information that is easily understood. 
 
-will be fully using openai models.
-
-stt = whisper (whisper-1)
-llm = gpt (model will be determined later, probably a cheaper one)
-tts = whisper
-
-
-actually we're using the realtime api model by openai
+For the backend, we are using LiveKit which is an open-source platform that provides tools and infrastructure for building real-time video and audio applications, including video conferencing, live streaming, and more. It uses WebRTC as its foundation and offers SDKs for various platforms, as well as a managed cloud service called LiveKit Cloud.
