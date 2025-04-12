@@ -11,3 +11,5 @@ LIVEKIT_URL=
 LIVEKIT_API_KEY=
 LIVEKIT_API_SECRET=
 OPENAI_API_KEY=
+
+Get your API keys from https://platform.openai.com/settings/organization/api-keys for openAI and https://docs.livekit.io/home/cloud/keys-and-tokens/ for LiveKit. OpenAI is a paid service and may require credit card information while LiveKit is free. 
